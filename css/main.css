@@ -1,4 +1,8 @@
-
+@charset "UTF-8";
+/*------------ For screens smaller than 768px -----------*/
+body{
+  background: pink;
+}
 /* ----------- For screens 768px and larger ----------- */
 @media (min-width: 768px) {
 	body {
@@ -9,6 +13,6 @@
 /* ----------- For screens 1200px wide and larger----------- */
 @media (min-width: 1200px) {
   body{
-    background: #9DBF9E;
+    background: #DC7F9B;
   }
 }
